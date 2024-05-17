@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav a {
+    margin-right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.flash {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.flash.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+.flash.danger {
+    background-color: #f2dede;
+    color: #a94442;
+}
